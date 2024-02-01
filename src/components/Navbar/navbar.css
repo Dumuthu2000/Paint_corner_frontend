@@ -1,0 +1,51 @@
+.Navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #101B34;
+    height: 60px;
+    width: 100%;
+    color: white;
+}
+.navTitle{
+    
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.profileImage{
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+}
+.date{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: darkgoldenrod;
+    font-weight: bold;
+
+}
+.time{
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    color: darkgoldenrod;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 11rem;
+}
+.personLogo{
+    width: 50px;
+    margin-right: 10px;
+    background-color: #101B34;
+}
+.admin{
+    font-weight: bold;
+}

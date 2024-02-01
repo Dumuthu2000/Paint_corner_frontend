@@ -1,0 +1,72 @@
+.Container{
+    display: flex;
+}
+.DrawerContainer{
+    background: linear-gradient(95deg, #1a659e, #004e89, #003554);
+    width: 15rem;
+    height: 100vh;
+    
+}
+.title{
+    font-size: 28px;
+    font-family: 'Lemon', serif;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    margin-top: 25px;
+    margin-bottom:25px;
+    background-color: #003554;
+}
+.linkButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+Link{
+    color: white;
+    text-decoration: none;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: start;
+    background-color: #101B34;
+    /* border-bottom: 5px solid #fb8500;
+    border-left: 5px solid #fb8500; */
+    color: white;
+}
+button:hover{
+    background-color: #bbdefb;
+    font-size: 18px;
+    font-weight: bold;
+    color: #101B34;
+}
+.selectedItems{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    text-align: start;
+    background-color: #101B34;
+    color: white;
+}
+.selectedItems:hover{
+    background-color: #bbdefb;
+    font-size: 18px;
+    font-weight: bold;
+    color: #101B34;
+}
+#logoutBtn{
+    margin-top: 110px;
+}
+.btnIcons{
+    margin-right: 15px;
+    margin-left: 5px;
+    color: #fb8500;
+}
+#logoutBtn button{
+    width: 100%;
+    border-bottom: 5px solid #ba181b;
+    border-left: 5px solid #ba181b;
+}

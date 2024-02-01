@@ -1,0 +1,45 @@
+.vehiclesContainer{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 2rem;
+    background-color: white;
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+}
+.vehicleInputSection{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.vehicleFields{
+    width: 15rem;
+    color: darkblue;
+    font-weight: bold;
+    font-size: 16px;
+}
+.vehicleAddBtn{
+    margin-top: 20px;
+    text-align: center;
+    width: 15rem;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: #4c956c;
+    border: none;
+    margin-left: 20px;
+}
+.vehicleAddBtn:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    cursor: pointer;
+}
+.searchBox{
+    background-color: #edf6f9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px 4px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
+}

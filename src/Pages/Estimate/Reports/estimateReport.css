@@ -1,0 +1,165 @@
+.estimateContainer{
+    height: 100vh;
+    background-color: #edf6f9;
+    width: 100%;
+    overflow-y: scroll;
+    
+}
+.EstimatSearchJob{
+    background-color: white;
+    width: 45%;
+    margin: 20px;
+    margin-left: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.1);
+}
+.estimateJobDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5px;
+    padding: 1.5px;
+}
+.estimateTitle{
+    margin: 10px auto;
+    background-color: #004e89;
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+h4{
+    color: #004e89;
+    font-size: 14.5px;
+}
+.estimateTitles{
+    margin-bottom: 5px;
+    color: #ef233c;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.estimateSheet{
+    background-color: white;
+    margin: 20px auto;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.1); */
+}
+
+
+.estimateReportInput{
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: #004e89;
+}
+.amountContainer{
+    background-color: white;
+    margin: 20px auto;
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.1);
+}
+.paymentTitle{
+    margin: 10px;
+    margin-bottom: 20px;
+    color: #ef233c;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.priceBtns{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.companyBtn{
+    width: 15rem;
+    border-radius: 8px;
+    border: none;
+    background-color: #38a3a5;
+    padding: 5px;
+}
+.insuranceBtn{
+    width: 15rem;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    background-color: #778da9;
+}
+.companyBtn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.insuranceBtn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.btnSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+.previewBtn{
+    width: 15rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #38a3a5;
+    border: none;
+    font-weight: bold;
+}
+.backBtn{
+    width: 15rem;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #ef233c;
+    border: none;
+    font-weight: bold;
+}
+.previewBtn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.backBtn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.footerSection{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+.jobNoSection{
+    padding: 5px;
+    border: 2px solid #004e89;
+    color: #ef233c;
+    font-weight: bold;
+    width: 8rem;
+    text-align: center;
+}
+.totalSection{
+    background-color: white;
+    width: 95%;
+    padding: 5px;
+    border-radius: 10px;
+    /* box-shadow: 4px 0px 10px 4px rgba(0, 0, 0, 0.1); */
+}
+.totalTitle{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+    margin-right: 10px;
+}

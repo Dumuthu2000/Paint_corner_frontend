@@ -1,0 +1,60 @@
+.createJobContainer{
+    display: flex;
+}
+.jobContainer{
+    height: 100vh;
+    background-color: #edf6f9;
+    width: 100%;
+    overflow-y: scroll;
+    
+}
+.jobform {
+    background-color: white;
+    width:70%;
+    margin: 2rem auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4); /* Adjust values as needed */
+}
+
+.formDetails{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+input{
+    width: 50%;
+    margin-left: 20px;
+    padding: 10px;
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+    outline-color: #0096c7;
+}
+label{
+    font-weight: bold;
+}
+.insuranceOptions{
+    width: 26rem;
+    margin-left: 1rem;
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+    font-size: 14px;
+    outline-color: black;
+}
+.submitBtn{
+    width: 15rem;
+    margin: 10px auto;
+    background-color: #fff;
+    border: 3px solid #38a3a5;
+    text-align: center;
+    border-radius: 5px;
+    color: #38a3a5;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 17px;
+}
+.submitBtn:hover{
+    background-color: #57cc99;
+    color: white;
+}

@@ -1,0 +1,164 @@
+.createEstimateContainer{
+    display: flex;
+}
+.estimateContainer{
+    height: 100vh;
+    background-color: #edf6f9;
+    width: 100%;
+    overflow-y: scroll;
+}
+.searchJob{
+    background-color: white;
+    width: 50%;
+    margin: 20px ;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.searchInput{
+    padding: 11px;
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+.searchBtn{
+    width: auto;
+    margin-left: 20px;
+    background-color: #edf6f9;
+    border: 3px solid #0077b6;
+    color: #0077b6;
+    font-weight: bold;
+    border-radius: 5px;
+}
+/* Job details */
+.jobDetails{
+    background-color: white;
+    width: 55%;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.jobFormDetails{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.jobFormText{
+    width: 15rem;
+    margin: 10px;
+    font-size: 16px;
+    color: #0077b6;
+    font-weight: bold;
+}
+
+/*Replacement Item container*/
+.replacementItemContainer{
+    background-color: white;
+    width: 99%;
+    margin: 20px;
+    margin-left: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.selectableItemOptions{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly;  */
+}
+.selectedOptions{
+    width: 13rem;
+}
+.addBtn{
+    background-color: #004e89;
+    padding: 8px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 60px;
+    margin-left: 20px;
+}
+.addBtn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.priceText{
+    width: 8.5rem;
+    font-size: 16px;
+    padding: 8px;
+}
+.estimateBtn{
+    width: 95%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    border: 3px solid #4a7c59;
+    background-color: #cfe0c3;
+    color: #4a7c59;
+    font-weight: bold;
+}
+.estimateBtn:hover{
+    border: 3px solid black;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#replacementUpdateBtn{
+    background-color: #4c956c;
+    border: none;
+    width: 5rem;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+#refixedUpdateBtn{
+    background-color: #4c956c;
+    border: none;
+    width: 5rem;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+#repairUpdateBtn{
+    background-color: #4c956c;
+    border: none;
+    width: 5rem;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+#paintUpdateBtn{
+    background-color: #4c956c;
+    border: none;
+    width: 5rem;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+  .updateBtn:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+  }

@@ -1,0 +1,7 @@
+.dashboardMainContainer{
+    display: flex;
+}
+.dashboardContainer{
+    background-color: #edf6f9;
+    width: 100%;
+}

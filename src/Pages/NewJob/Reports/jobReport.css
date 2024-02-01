@@ -1,0 +1,158 @@
+.jobCardSectionContainer{
+    padding: 10px;
+}
+.jobCardMainContainer{
+    margin: 10px auto;
+    width: 95%;
+    padding: 20px;
+    box-shadow: 4px 1px 16px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    
+}
+.jobCardContainer{
+    display: flex;
+    /* justify-content: center; */
+    gap: 10px;
+    
+}
+.jobReportHeading{
+    display: flex;
+    gap: 10px;
+}
+.jobCardDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.jobCard{
+    font-family:sans-serif;
+    font-size: 40px;
+    color: darkgoldenrod;
+
+}
+.jobNo{
+    border: 3px solid red;
+    width: 9rem;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.jobReportHeading{
+    /* background-color: blueviolet; */
+    padding: 10px;
+    width: 100%;
+}
+.sparePartsConatiner{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.reportField{
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+.addressFiled{
+    border: 1px solid darkgoldenrod;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    width: 50%;
+    
+}
+
+/*Table styling*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+  }
+  /*--------------------------------*/
+  .signatureBox{
+    margin-top: 10px;
+  }
+.section{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 10px;
+}
+.sectionName{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.DRsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    /* width: 100%; */
+}
+.commentsSection{
+    margin-top: 10px;
+}
+
+/*Button Section*/
+.jobCardBtnSection{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 10px auto;
+    width: 95%;
+    padding: 20px;
+    box-shadow: 4px 1px 16px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.jobBackBtn{
+    width: 10rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ef233c;
+    border: none;
+    font-weight: bold;
+}
+.jobPrintBtn{
+    width: 10rem;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #38a3a5;
+    border: none;
+    font-weight: bold;
+}
+.jobBackBtn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.jobPrintBtn:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+/*-----------------------------------------------------------Second Page-------------------------------------------------------------*/
+.secondPageTitle{
+    text-align: center;
+    margin-top: 5rem;
+    padding: 10px;
+    text-decoration: underline;
+}
+.tableSectionConatiner{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
